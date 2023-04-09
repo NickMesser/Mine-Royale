@@ -1,0 +1,96 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				glow_item_frame = false
+				player = true
+				area_effect_cloud = true
+				item = true
+				cow = true
+				bat = true
+				skeleton = true
+				salmon = true
+				squid = true
+				glow_squid = true
+				zombie = true
+				enderman = true
+				spider = true
+				drowned = true
+				rabbit = true
+				wolf = true
+				tnt_minecart = true
+				villager = true
+				item_frame = true
+				painting = true
+				witch = true
+				stray = true
+				illusioner = true
+				axolotl = true
+				frog = true
+				cat = true
+				pig = true
+				cave_spider = true
+				tropical_fish = true
+				cod = true
+				creeper = true
+				pufferfish = true
+
+			[light_sources.settings.entities.ecologics]
+				penguin = true
+
+			[light_sources.settings.entities.artifacts]
+				mimic = true
+
+			[light_sources.settings.entities.graveyard]
+				ghoul = true
+				skeleton_creeper = true
+				revenant = true
+				nightmare = true
+
+			[light_sources.settings.entities.rottencreatures]
+				undead_miner = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				cave_creeper = true
+				dripstone_creeper = true
+
+			[light_sources.settings.entities.tinyskeletons]
+				baby_skeleton = true
+
+			[light_sources.settings.entities.naturalist]
+				snail = true
+				firefly = true
+				snake = true
+				bluejay = true
+				coral_snake = true
+				robin = true
+
+			[light_sources.settings.entities.resourcechickens]
+				chicken = true
+
+			[light_sources.settings.entities.biomemakeover]
+				helmit_crab = true
+
+			[light_sources.settings.entities.takesapillage]
+				clay_golem = true
+
